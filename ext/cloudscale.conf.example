@@ -1,0 +1,26 @@
+[webservers]
+image   = 'ami-f19a5998'
+type    = 'm1.small'
+region  = 'us-east-1'
+keypair = 'mypair_rsa'
+keyfile = '/root/.ssh/mypair_rsa.pem'
+master  = 'puppet.domain.com'
+login   = 'root'
+pe-install-tarball = /tmp/puppet-enterprise-1.2.1-all.tar.gz
+pe-answer-file = /tmp/pe-answers.txt
+pe-version = 1.2.1
+install-script = puppet-enterprise
+
+[cluster-nodes]
+image   = 'ami-f19a3921'
+type    = 'm1.small'
+region  = 'us-east-1'
+keypair = 'mypair_rsa'
+keyfile = '/root/.ssh/mypair_rsa.pem'
+master  = 'puppet.domain.com'
+login   = 'root'
+pe-install-tarball = /tmp/puppet-enterprise-1.2.1-all.tar.gz
+pe-answer-file = /tmp/pe-answers.txt
+pe-version = 1.2.1
+install-script = puppet-enterprise
+
