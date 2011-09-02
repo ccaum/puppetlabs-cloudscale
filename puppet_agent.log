@@ -1,0 +1,13 @@
+info: Retrieving plugin
+info: Loading facts in facter_dot_d
+info: Loading facts in rvm_installed
+info: Loading facts in facter_dot_d
+info: Loading facts in rvm_installed
+info: Loading facts in facter_dot_d
+info: Loading facts in rvm_installed
+info: Loading facts in facter_dot_d
+info: Loading facts in rvm_installed
+info: Caching catalog for slice.carlcaum.com
+info: /Group[activemq]: Provider groupadd does not support features manages_aix_lam; not managing attribute ia_load_module
+info: Applying configuration version '1314977074'
+notice: Finished catalog run in 3.54 seconds
